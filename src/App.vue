@@ -1,18 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import SplashPage from './pages/SplashPage.vue'
 import VisualizationPage from './pages/VisualizationPage.vue'
-
-const splashPageVisibility = ref(true)
-
-const hideSplashPage = () => {
-  splashPageVisibility.value = false
-}
 </script>
 
 <template>
-  <SplashPage v-if="splashPageVisibility" @hideSplashPage="hideSplashPage" />
-  <VisualizationPage v-if="!splashPageVisibility" />
+  <VisualizationPage />
 </template>
 
 <style scoped>
