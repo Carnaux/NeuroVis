@@ -1,0 +1,75 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: rgba(60, 60, 60, 0.66);
+  border-color: rgba(60, 60, 60, 0.66);
+  border-radius: 50%;
+}
+
+button {
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--button-bg);
+  color: white;
+  border-style: none;
+
+  &.selected {
+    background-color: var(--button-bg-selected);
+  }
+}
+
+button:hover {
+  background-color: var(--button-bg-hover);
+  transition: background-color 200ms linear;
+}
+
+button:disabled {
+  background-color: var(--button-bg-disabled);
+  color: var(--button-text-disabled);
+}
+
+select {
+  width: 8rem;
+  height: 2rem;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-style: solid;
+  border-color: rgba(60, 60, 60, 0.66);
+  border-radius: 0.3rem;
+  background-color: var(--button-bg);
+  color: white;
+}
+
+select:hover {
+  border-color: var(--button-bg-hover);
+  transition: border-color 200ms linear;
+}
+
+select:disabled {
+  background-color: var(--button-bg-disabled);
+  color: var(--button-text-disabled);
+  border-color: rgba(60, 60, 60, 0.66);
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
