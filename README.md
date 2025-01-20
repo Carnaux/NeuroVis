@@ -60,15 +60,15 @@ A python server was built to add the functionality to fetch files from a databas
 
 Initial Screen
 
-[<img src="./doc/images/initialScreen.png" width="300"/>]()
+[<img src="./doc/images/initialScreen.png" width="300"/>](https://github.com/Carnaux/NeuroVis/blob/main/doc/images/initialScreen.png)
 
 Annotations
 
-[<img src="./doc/images/annotations.png" width="300"/>]()
+[<img src="./doc/images/annotations.png" width="300"/>](https://github.com/Carnaux/NeuroVis/blob/main/doc/images/annotations.png)
 
 Time Series
 
-[<img src="./doc/images/timeSeries.png" width="300"/>]()
+[<img src="./doc/images/timeSeries.png" width="300"/>](https://github.com/Carnaux/NeuroVis/blob/main/doc/images/timeSeries.png)
 
 # Recording walkthrough
 
